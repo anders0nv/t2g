@@ -3697,7 +3697,7 @@ input[type="submit"][disabled]:focus i {
 	display: block;
 	vertical-align: middle;
 	background-color: rgba(28, 25, 25, 0.2);
-	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 2px solid rgba(224, 6, 43, 0.27);
 }
 
 @media (max-width: 767px) {
@@ -4011,7 +4011,7 @@ input[type="submit"][disabled]:focus i {
 .header .centered-menu-wrap .main-nav > ul > li > a {
 	font-size: 12px;
 	line-height: 20px;
-	padding: 38px 20px 35px;
+	padding: 38px 20px 40px;
 	color: #ffffff;
 	opacity: 0.6;
 	font-family: "Raleway", sans-serif;
@@ -8502,4 +8502,16 @@ body .post-password-required .post-password-form input[type="submit"]:hover {
 
 .btn-social i {
 	color: #e00231;
+}
+
+.header .centered-menu-wrap .main-nav > ul > li > a {
+	font-size: 20px;	
+}
+
+.header .centered-menu-wrap .main-nav > ul > li > a:hover {
+	color: #e00231;
+	border-bottom: 2px solid #e00231;
+	font-size: 20px;
+	font-weight: 500;
+	transition: 0.4s ease;
 }
